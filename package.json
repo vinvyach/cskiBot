@@ -4,7 +4,8 @@
   "description": "Telegram Bot API",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "_node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
 },
   "keywords": [],
   "author": [],
