@@ -1,17 +1,25 @@
 {
-  "name": "node-telegram-bot-api",
-  "version": "0.30.0",
-  "description": "Telegram Bot API",
+  "name": "cskiBot",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "_node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-},
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinvyach/cskiBot.git"
+  },
   "keywords": [],
-  "author": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinvyach/cskiBot/issues"
+  },
+  "homepage": "https://github.com/vinvyach/cskiBot#readme",
   "dependencies": {
     "node-telegram-bot-api": "^0.30.0",
-    "request": "^2.81.0"
+    "request": "^2.88.0"
   }
 }
