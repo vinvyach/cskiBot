@@ -1,6 +1,6 @@
 'use strict';
 
-const TlegramBot = require('node-telegram-bot-api'),
+const TelegramBot = require('node-telegram-bot-api'),
     request = require('request'),
     fs = require('fs'),
     token = '460519065:AAE08RZfRNSSkC6NrfnUjl6iMQ9tpIILnLY',
