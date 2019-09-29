@@ -8,8 +8,8 @@ const TlegramBot = require('node-telegram-bot-api'),
 //слушаем сообщение от пользователя
 bot.on('message', function (msg){
     const id = msg.from.id,
-        messageText = msg.text,
-        messageText = messageText.toLowerCase();
+        _messageText = msg.text,
+        messageText = _messageText.toLowerCase();
 
 
      if (messageText === 'привет') {
